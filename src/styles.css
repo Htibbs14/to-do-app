@@ -1,0 +1,16 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.inputBox {
+  width: 250px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+}
