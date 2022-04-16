@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+h1 {
+  color: blueviolet;
+}
+
 .inputBox {
   width: 250px;
 }
