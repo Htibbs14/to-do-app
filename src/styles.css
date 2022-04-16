@@ -7,10 +7,15 @@ body {
   width: 250px;
 }
 
-ul {
+#toDoList {
   padding: 0;
+  list-style: none;
 }
 
 li {
-  text-decoration: none;
+  margin: 10px;
+}
+
+.paragraph {
+  margin-right: 10px;
 }

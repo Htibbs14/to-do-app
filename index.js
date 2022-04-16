@@ -9,19 +9,19 @@ function createToDo(event) {
     return;
   }
 
-  let div = document.createElement("div");
+  let li = document.createElement("li");
 
   let checkbox = document.createElement("input");
   checkbox.classList.add("checkbox");
   checkbox.type = "checkbox";
 
-  let paragraph = document.createElement("p");
+  let paragraph = document.createElement("span");
   paragraph.classList.add("paragraph");
   paragraph.textContent = text;
 
-  div.appendChild(paragraph);
-  div.appendChild(checkbox);
-  toDoList.appendChild(div);
+  li.appendChild(paragraph);
+  li.appendChild(checkbox);
+  toDoList.appendChild(li);
 
   inputBox.value = "";
 }
