@@ -5,6 +5,8 @@ body {
 
 h1 {
   color: blueviolet;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .inputBox {
